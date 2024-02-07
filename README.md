@@ -1,6 +1,6 @@
 # Flatbread
 
-2D gameengine based on Bagel Engine.
+2D game engine based on Bagel Engine.
 
 Bagel Engine is 'how cool of a thing I can make with libraries' whereas Flatbread is 'how much can I make with minimum libraries'. 
 This means there will be no entt no jolt nor imgui. I am still using glfw, vulkan, and an image library. 
