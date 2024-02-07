@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="engine">
+      <UniqueIdentifier>{FBDB78FB-E77D-A3D1-D038-B725BC792A22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\ecs">
+      <UniqueIdentifier>{25E24784-119A-89D1-7AA1-622D667824C2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\render_system">
+      <UniqueIdentifier>{4EBED11A-3A4D-5BE4-E36B-6FDFCFD96B8A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\App.h" />
+    <ClInclude Include="src\engine\buffer.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\descriptor_manager.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\descriptor_pool.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\device.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\ecs\entity_component_system.h">
+      <Filter>engine\ecs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\ecs\entity_components.h">
+      <Filter>engine\ecs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\render_system\render_system.h">
+      <Filter>engine\render_system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\render_system\spriteRenderSystem.h">
+      <Filter>engine\render_system</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\renderer.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\renderpass_manager.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\swapchain.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\util.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\window.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\keyboardController.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\App.cpp" />
+    <ClCompile Include="src\engine\buffer.cpp">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\descriptor_manager.cpp">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\descriptor_pool.cpp">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\device.cpp">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\ecs\entity_component_system.cpp">
+      <Filter>engine\ecs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\ecs\entity_components.cpp">
+      <Filter>engine\ecs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\render_system\render_system.cpp">
+      <Filter>engine\render_system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\render_system\spriteRenderSystem.cpp">
+      <Filter>engine\render_system</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\renderer.cpp">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\renderpass_manager.cpp">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\swapchain.cpp">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\util.cpp">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\window.cpp">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\keyboardController.cpp" />
+    <ClCompile Include="src\main.cpp" />
+  </ItemGroup>
+</Project>
